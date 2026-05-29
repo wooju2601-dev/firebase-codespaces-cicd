@@ -14,7 +14,7 @@ function App() {
   <h1>확장 과제입니다</h1>
     <Header/>
     <Main/>
-    <Footer/>
+   
 </div>
 
 
