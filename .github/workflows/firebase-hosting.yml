@@ -30,4 +30,4 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_PRO02 }}
           channelId: live
-          projectId: pro02
+          projectId: pro01-fdfdb
