@@ -3,13 +3,21 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Header from './components/Header'
+import Main from './components/Main'
+import Footer from './components/Footer'
+
 
 function App() {
   return(
-    <>
-      <h1>Firebase Hosting 자동 배포 완료</h1>
-      <p>Github Actions를 통해 자동으로 배포되었습니다.</p>
-    </>
+<div>
+  <h1>확장 과제입니다</h1>
+    <Header/>
+    <Main/>
+    <Footer/>
+</div>
+
+
   );
 }
 
